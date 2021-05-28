@@ -1,6 +1,3 @@
-# Put your custom themes in this folder.
-# Example:
-
 # Keeps track of the last segment's background color
 SLASHER_BACKGROUND=""
 
