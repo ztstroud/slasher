@@ -57,6 +57,11 @@ slasher_git() {
     slasher_segment 0 15 $repository_name $branch $status_symbols
 }
 
+# Display the locatiion
+slasher_location() {
+    slasher_segment 15 2 "$SLASHER_LOCATION"
+}
+
 # Display the current time
 slasher_time() {
     slasher_segment 15 4 "%*"
